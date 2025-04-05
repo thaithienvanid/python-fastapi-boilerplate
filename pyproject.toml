@@ -1,0 +1,27 @@
+[project]
+name = "python-fastapi-boilerplate"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asyncpg>=0.30.0",
+    "dependency-injector>=4.46.0",
+    "fastapi>=0.115.12",
+    "httpx>=0.28.1",
+    "pydantic>=2.11.2",
+    "slowapi>=0.1.9",
+    "sqlalchemy>=2.0.40",
+    "starlette>=0.46.1",
+    "structlog>=25.2.0",
+    "uvicorn>=0.34.0",
+]
+
+[dependency-groups]
+dev = [
+    "alembic>=1.15.2",
+    "black>=25.1.0",
+    "mypy>=1.15.0",
+    "pytest>=8.3.5",
+    "pytest-asyncio>=0.26.0",
+]
